@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profil Diri</title>
+</head>
+<body>
+    <h1>Profil Diri</h1>
+    <h1>Early Aziza Aulya Iskandar 1303223089 IT-46-02 </h1>
+    
+    <!-- Menggunakan tag table untuk membuat tabel -->
+    <!-- a) Tag ini digunakan untuk menampilkan data dalam format tabel -->
+    <!-- b) Tabel digunakan untuk menampilkan informasi dalam format baris dan kolom -->
+    <table>
+        <tr>
+            <!-- Menggunakan tag td untuk membuat kolom dalam baris tabel -->
+            <!-- a) Tag td adalah sel dalam tabel yang menampilkan data -->
+            <!-- b) Saya menggunakan td untuk menampilkan foto profil di sebelah kiri -->
+            <td>
+                <p>Foto Profil</p>
+                <!-- Menggunakan tag img untuk menyisipkan gambar -->
+                <!-- a) Tag img digunakan untuk menampilkan gambar -->
+                <!-- b) Saya menggunakan img untuk menampilkan foto profil -->
+                <img src="IMG_1427e.JPG" alt="Foto Profil" width="150">
+            </td>
+            <td>
+                <p>Video Perkenalan</p>
+                <!-- Menggunakan tag video untuk menampilkan video -->
+                <!-- a) Tag video digunakan untuk memutar video di browser -->
+                <!-- b) Saya menggunakan video untuk memberikan perkenalan dalam format video -->
+                <video controls width="350" height="200">
+                    <source src="IMG_7229.MOV" type="video/mp4">
+                    Browser Anda tidak mendukung video ini.
+                </video>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Menggunakan tag div sebagai container untuk konten lain -->
+    <!-- a) Tag div digunakan untuk mengelompokkan elemen HTML -->
+    <!-- b) Saya menggunakan div untuk mengelompokkan bagian "Tentang Saya" -->
+    <div>
+        <h2>Tentang Saya</h2>
+        <!-- Menggunakan tag p untuk teks paragraf -->
+        <!-- a) Tag p digunakan untuk menampilkan teks dalam format paragraf -->
+        <!-- b) Saya menggunakan p untuk memberikan deskripsi singkat tentang diri saya -->
+        <p>Halo! Saya adalah seorang mahasiswa yang sedang mempelajari pemrograman web.</p>
+    </div>
+
+    <div>
+        <h2>Keterampilan</h2>
+        <!-- Menggunakan table untuk menampilkan data keterampilan dalam bentuk tabel -->
+        <table>
+            <!-- Menggunakan th untuk header tabel -->
+            <!-- a) Tag th digunakan untuk memberikan judul atau label pada kolom tabel -->
+            <!-- b) Saya menggunakan th untuk mendefinisikan judul kolom "Keterampilan" dan "Tingkat" -->
+            <tr>
+                <th>Keterampilan</th>
+                <th>Tingkat</th>
+            </tr>
+            <tr>
+                <!-- Menggunakan td untuk menampilkan data keterampilan -->
+                <td>HTML / CSS</td>
+                <td>Mahir</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Menengah</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Pemula</td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <h2>Hubungi Saya</h2>
+        <!-- Menggunakan form untuk membuat formulir -->
+        <!-- a) Tag form digunakan untuk mengirimkan data pengguna -->
+        <!-- b) Saya menggunakan form untuk membuat formulir kontak -->
+        <form>
+            <!-- Menggunakan input untuk menerima teks dari pengguna -->
+            <!-- a) Tag input digunakan untuk menerima masukan data dari pengguna -->
+            <!-- b) Saya menggunakan input untuk menerima nama dan email pengguna -->
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name"><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+
+            <!-- Menggunakan textarea untuk input teks yang lebih panjang -->
+            <!-- a) Tag textarea digunakan untuk input teks yang lebih panjang -->
+            <!-- b) Saya menggunakan textarea untuk menerima pesan dari pengguna -->
+            <label for="message">Pesan:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+
+            <!-- Menggunakan button untuk membuat tombol pengiriman -->
+            <!-- a) Tag button digunakan untuk membuat tombol interaktif -->
+            <!-- b) Saya menggunakan button untuk mengirim formulir setelah diisi -->
+            <button type="submit">Kirim Pesan</button>
+        </form>
+
+        <!-- Menggunakan tag a untuk link ke halaman eksternal -->
+        <!-- a) Tag a digunakan untuk membuat hyperlink -->
+        <!-- b) Saya menggunakan a untuk membuat tautan ke profil media sosial saya -->
+        <div>
+            <h3>Media Sosial:</h3>
+            <a href="https://www.linkedin.com/in/earlyaziza?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Linkedin</a> |
+            <a href="https://github.com/lysavvy">Github</a> |
+            <a href="https://www.instagram.com/earlyzizaa?igsh=MXB0cnk0dGYzajI3bQ%3D%3D&utm_source=qr">Instagram</a>
+        </div>
+    </div>
+
+</body>
+</html>
